@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortfolioWebFrancoPerrone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2b065a4ee4.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script> <!-- Enlaza el archivo de JavaScript -->
+</head>
+
+<body>
+    <div id="slider">
+        <div id="header">
+
+
+            <div class="container">
+                <nav>
+                    <img src="FRANCO PERRONE LOGO3.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portafolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-sharp fa-solid fa-xmark-large" onclick="closemenu()"></i>
+                    </ul>
+
+                </nav>
+
+
+                <div class="header-text">
+                    <p>Hi There!, It´s Me</p>
+                    <h1>Franco Perrone </h1>
+                    <p>And I´m a... <span>
+                            <p class="maquina-de-escribir"><span style="color: #db36e0; ">Industrial designer</span></p>
+                        </span></p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!----------------about---------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Franco Photo.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+
+                    <p style="text-align: justify;"> I am an industrial designer with experience in product development
+                        and implementation.
+                        My experience lies in the field of 3D modeling and the preparation of documentation and
+                        technical drawings.</p>
+
+                    <br>
+
+                    <p style="text-align: justify;">In addition, I have a strong penchant for creative endeavors,
+                        suitable for a variety of graphic design responsibilities.
+                        This encompasses tasks like conceptualizing and designing logos, shaping brands, selecting
+                        engaging presentation styles, orchestrating product communication strategies, and more.</p>
+
+                    <br>
+
+                    <p style="text-align: justify;">At present, my main objective is aimed at participating in
+                        innovative companies. I ardently seek opportunities that allow me to showcase my skills as an
+                        exciting career alternative. Through the application of my honed knowledge and proficient
+                        skills,
+                        I am dedicated to bringing exceptional value to diverse projects, demonstrating my ability to
+                        bring innovation and ingenuity to the forefront.</p>
+
+
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Design Software Cad 3D/2D & rendering</span><br>SolidWorks, SketchUp, Adobe
+                                Illustrator, KeyShot, Adobe Photoshop, UltiMaker Cura, MagicalVoxel & Blender</li>
+                            <li><span>Programm</span><br>Java, MySQL, HTML + CSS, Javascript</li>
+                            <li><span>Lenguages</span><br>Spanish, English</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>NTB Solutions S.A. | 2023.</span><br>Product development “Remote admission
+                                hospital cabins”.</li>
+
+                            <br>
+
+                            <p style="text-align: justify;">(Project management and planning, 3d modeling,
+                                conceptualization and
+                                rendering, development of technical plans and budgeting).</p>
+
+                            <br>
+
+                            <p style="text-align: justify;">(Creation and testing of documentation for different
+                                software and monitoring
+                                tools, currently “Zabbix”)</p>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Universidad Nacional de Córdoba</span><br>Industrial Desing, Industrial Designer
+                                (College degree). | 2017-2021.</li>
+                            <li><span>Egg Educacion</span><br>Full Stack Web Programming (600 hour course). | 2021-2022.
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------Specialties---------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My specialties</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-cube fa-beat"></i>
+                    <h2>3D Product Desing</h2>
+                    <p style="text-align: justify;"> Specializing in 3D modeling services, I can create 3D models for a
+                        wide variety of projects.</p>
+
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-image fa-beat"></i>
+                    <h2>Graphic design</h2>
+                    <p style="text-align: justify;"> Part of my job is to communicate, which has given me experience
+                        generating graphic content in a wide variety of presentations for different situations. </p>
+
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-magnifying-glass-chart fa-beat"></i>
+                    <h2>Testing and production</h2>
+                    <p style="text-align: justify;"> I have recent experience testing and implementing user experiences
+                        in both physical and software products, ensuring that they are intuitive and functional
+                        products. </p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!----------------PortfolioSection---------------------->
+
+    <div id="portfolio">
+        <!----------------Portfolio 01---------------------->
+        <div class="container">
+            <h1 class="sub-title">Some of my work</h1>
+            <br>
+
+            <p style="font-size: 24px;">RPG Character desing</p>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="Wizzard02_Render.png">
+                    <div class="layer">
+                        <h3>Character Design </h3>
+                        <p>Custom character design in voxel-style 3D graphics for a card game.</p>
+                        <a
+                            href="https://www.instagram.com/frank_o_0.vox/"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/ArcherCard2_Render.png">
+                    <div class="layer">
+                        <h3>Character Design</h3>
+                        <p>Custom character design in voxel-style 3D graphics for a card game.</p>
+                        <a href="https://www.instagram.com/frank_o_0.vox/"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/WarriorCard_Render.png">
+                    <div class="layer">
+                        <h3>Character Design</h3>
+                        <p>Custom character design in voxel-style 3D graphics for a card game.</p>
+                        <a href="https://www.instagram.com/frank_o_0.vox/"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+
+                </div>
+
+                <div class="work">
+                    <img src="Images/GoblinCard_Render.png">
+                    <div class="layer">
+                        <h3>Character Design </h3>
+                        <p>Custom character design in voxel-style 3D graphics for a card game.</p>
+                        <a
+                            href="https://www.instagram.com/frank_o_0.vox/"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+        <!----------------Portfolio 02---------------------->
+
+        <div class="container">
+
+            <br>
+
+            <p style="font-size: 24px;">Design of conceptual spaces</p>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/Conceptual_01J.jpg">
+                    <div class="layer">
+                        <h3>Architectural Structures </h3>
+                        <p>Conceptual rendering for architectural structures for an industrial design thesis.</p>
+                        <a
+                            href="https://www.instagram.com/frank_o_0.vox/"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Conceptual_02J.jpg">
+                    <div class="layer">
+                        <h3>Architectural Structures </h3>
+                        <p>Conceptual rendering for architectural structures for an industrial design thesis.</p>
+                        <a href="https://www.instagram.com/frank_o_0.vox/"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Conceptual_04J.jpg">
+                    <div class="layer">
+                        <h3>Architectural Structures </h3>
+                        <p>Conceptual rendering for architectural structures for an industrial design thesis.</p>
+                        <a href="https://www.instagram.com/frank_o_0.vox/"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+
+                </div>
+
+                <div class="work">
+                    <img src="Images/Conceptual_06J.jpg">
+                    <div class="layer">
+                        <h3>Architectural Structures  </h3>
+                        <p>Conceptual rendering for architectural structures for an industrial design thesis.</p>
+                        <a
+                            href="https://www.instagram.com/frank_o_0.vox/"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+            </div>
+
+
+        </div>
+
+        <!----------------Portfolio 03---------------------->
+
+        <div class="container">
+
+            <br>
+
+            <p style="font-size: 24px;">Minimalist graphic design</p>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/GraphicDesing_01.jpg">
+                    <div class="layer">
+                        <h3>Minimalist wallpapers</h3>
+                        <p>Design of vectorized minimalist backgrounds, for mobile devices.</p>
+                        <a
+                            href="https://www.instagram.com/frank_o_0.vox/"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/GraphicDesing_02.jpg">
+                    <div class="layer">
+                        <h3>Minimalist wallpapers</h3>
+                        <p>Design of vectorized minimalist backgrounds, for mobile devices.</p>
+                        <a href="https://www.instagram.com/frank_o_0.vox/"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/GraphicDesing_03.jpg">
+                    <div class="layer">
+                        <h3>Minimalist wallpapers</h3>
+                        <p>Design of vectorized minimalist backgrounds, for mobile devices.</p>
+                        <a href="https://www.instagram.com/frank_o_0.vox/"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+
+                </div>
+
+                <div class="work">
+                    <img src="Images/GraphicDesing_04.jpg">
+                    <div class="layer">
+                        <h3>Minimalist wallpapers </h3>
+                        <p>Design of vectorized minimalist backgrounds, for mobile devices.</p>
+                        <a
+                            href="https://www.instagram.com/frank_o_0.vox/"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!----------------PortfolioSeeMore---------------------->
+            </div>
+            <a href="https://www.instagram.com/frank_o_0.vox/" class="btn">See more</a>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <!----------------Contact---------------------->
+
+    <div id="contact"></div>
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>franco_di@outlook.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+54 3516302165</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/frank_o_0.vox/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/franco-perrone-di/"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+                <a href="Images/Resume_Franco Perrone_(August)-2023-En (1).pdf" download class="btn btn2">Download
+                    CV</a>
+            </div>
+            <!---
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+                
+            </div>
+            --->
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Franco Perrone. Made with help <i class="fa-solid fa-heart fa-flip"></i> by Easy Tutorials </p>
+    </div>
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyhPKzaT_-O00ceMG46w8cM58Kwy7vvwmCE74w5eDNs06V7d3s3H8ASe-SQZoRWaKJV/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200";
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
